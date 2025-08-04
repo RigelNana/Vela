@@ -15,6 +15,8 @@ target_sources(test
         time/TimeSystem.cppm
         coord/Coord.cppm
         constant/Constant.cppm
+        coord/CoordTransform.cppm
+        utils/Utils.cppm
 )
 
 target_link_libraries(test PRIVATE -lstdc++exp)
